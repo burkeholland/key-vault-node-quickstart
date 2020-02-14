@@ -1,0 +1,24 @@
+{
+  "name": "key-vault-node-quickstart",
+  "version": "1.0.0",
+  "description": "This console app shows how to get started in Node with Azure Key Vault",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burkeholland/key-vault-node-quickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burkeholland/key-vault-node-quickstart/issues"
+  },
+  "homepage": "https://github.com/burkeholland/key-vault-node-quickstart#readme",
+  "dependencies": {
+    "@azure/identity": "^1.0.2",
+    "@azure/keyvault-secrets": "^4.0.2",
+    "readline": "^1.3.0"
+  }
+}
